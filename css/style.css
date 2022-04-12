@@ -1,0 +1,49 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+main{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+
+}
+
+section.primeira-coluna {
+
+    width: 20%;
+    height: 100vh;
+    background-color: blue;
+
+}
+
+
+section.segunda-coluna {
+
+    width: 80%;
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+
+img {
+
+    border-radius: 50%;
+}
+
+li.lista-sobre {
+
+    list-style-type: none;
+}
+
+li.lista-conhecimentos {
+
+    list-style-type: none;
+}
+
+li.lista-objetivos {
+
+    list-style-type: none;
+}
