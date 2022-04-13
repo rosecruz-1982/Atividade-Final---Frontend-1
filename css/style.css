@@ -1,6 +1,7 @@
 * {
 margin: 0;
 padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -15,28 +16,54 @@ section.primeira-coluna {
 
     width: 20%;
     height: 100vh;
-    background-color: blue;
+    background: rgb(55,159,158);
+    background: linear-gradient(0deg, rgba(55,159,158,1) 0%, #4B0082 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 
 }
 
-
-section.segunda-coluna {
-
-    width: 80%;
-    height: 100vh;
-    background-color: blueviolet;
-
-}
-
-img {
+.primeira-coluna img {
 
     border-radius: 50%;
+    border: 7px solid #4B0082 ;
+    
+}
+
+.primeira-coluna ul{
+    text-align: center;
+}
+.primeira-coluna li{
+
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.primeira-coluna a{
+    text-decoration: none;
+
+}
+
+.primeira-coluna a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 li.lista-sobre {
 
     list-style-type: none;
 }
+
 
 li.lista-conhecimentos {
 
@@ -46,4 +73,106 @@ li.lista-conhecimentos {
 li.lista-objetivos {
 
     list-style-type: none;
+}
+
+section.segunda-coluna {
+
+    width: 80%;
+    height: 100vh;
+    
+    
+}
+
+.infos{
+
+   
+    position: relative;
+    top: 23%;
+    margin-left: 20px;
+}
+
+
+
+.dados h1  {
+    font-size: 60px;
+    color: #4B0082;
+}
+
+
+.dados span{
+    color: rgb(55,159,158);
+}
+
+.dados p{
+    color: #4B0082;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.dados a {
+
+    text-decoration: none;
+    color: rgb(55,159,158);
+    font-weight: bold;
+}
+
+.frase p{
+    color: #4B0082;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.icones{
+    margin-top: 74px;
+    margin-left: 10px;
+}
+
+.icones img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.img-icones{
+    margin-left: 50px;
+}
+
+.conhecimentos h1{
+   
+    font-size: 50px;
+    color: #4B0082;
+}
+
+.conhecimentos, .objetivos{
+
+    
+    position: relative;
+    top: 23%;
+    margin-left: 40px;
+
+}
+
+.objetivos h1{
+    font-size: 50px;
+    color: #4B0082;
+}
+
+.conhecimentos ol, .objetivos ul{
+    
+    margin-left: 38px;
+    color: rgb(55,159,158);
+}
+
+.conhecimentos li{
+    
+    margin-top: 13px;
+    font-size: 30px;
+}
+
+.objetivos ul{
+    margin-top: 25px;
+}
+
+.objetivos li{
+    margin-top: 15px;
+    font-size: 20px;
 }
